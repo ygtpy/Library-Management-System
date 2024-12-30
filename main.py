@@ -89,7 +89,41 @@ class KutuphaneYonetim:
         for kitap in kitaplar:
             if arama.lower() in kitap['baslik'].lower() or arama == kitap['isbn']:
                 print("\n === Bulunan Kitap ===")
+                print(f"Başlık: {kitap['baslik']}")
+                print(f"Yazar: {kitap['yazar']}")
+                print(f"ISBN: {kitap['isbn']}")
+                print(f"Durum: {'Müsait' if {kitap['Müsait']} else 'Ödünç Verilmiş'}")
+                bulunan= True
+            
+            if not bulunan:
+                print("Kitap Bulunamadı")
+                
+            
+    def uye_ekle(self):
+        try:
+            print("\n=== Üye Ekleme ===")
+            ad_soyad = input("Ad Soyad: ")
+            uyeler = self.vt.uyeler_getir()
+            
+                
+            # Otomatik üye numarası oluşturma
+            if not uyeler:
+                uye_no = "M00001"
+            else:
+                son_uye_no = max(int(uye['uye_no'][1:]) for uye in uyeler)
+                uye_no = f"M{str(son_uye_no + 1).zfill(5)}"
+                
+            
+            uye = Uye(ad_soyad, uye_no)
+            uyeler.append(uye.sozluk_olustur())
+            self.vt.veri_kaydet(self.vt.uyeler_dosyasi, uyeler)
+            print(f"Üye başarıyla eklendi! Üye Numarası: {uye_no}")
+            
+        except Exception as e:
+            print(f"Bir hata oluştu {e}")
+            
         
+        def uye_sil(self):
         
         
         
