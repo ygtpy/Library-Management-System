@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Ahmet Yılmaz",
+        "member_id": "M1",
+        "borrowed_books": ["9789753424134"],
+        "penalty": 0
+    },
+    {
+        "name": "Ayşe Kara",
+        "member_id": "M2",
+        "borrowed_books": [],
+        "penalty": 0
+    },
+    {
+        "name": "Mehmet Demir",
+        "member_id": "M3",
+        "borrowed_books": ["9781449355739"],
+        "penalty": 15
+    },
+    {
+        "name": "Zeynep Ak",
+        "member_id": "M4",
+        "borrowed_books": [],
+        "penalty": 0
+    },
+    {
+        "name": "Can Yıldız",
+        "member_id": "M5",
+        "borrowed_books": [],
+        "penalty": 5
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Suç ve Ceza",
+        "author": "Fyodor Dostoyevski",
+        "isbn": "9789750719387",
+        "page_count": 687,
+        "category": "Roman",
+        "is_available": true,
+        "borrowed_by": null,
+        "borrowed_date": null,
+        "return_date": null
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "isbn": "9789753424134",
+        "page_count": 352,
+        "category": "Distopya",
+        "is_available": false,
+        "borrowed_by": "M001",
+        "borrowed_date": "2024-12-20",
+        "return_date": "2025-01-20"
+    },
+    {
+        "title": "Yapay Zeka",
+        "author": "Ethem Alpaydın",
+        "isbn": "9786053758174",
+        "page_count": 264,
+        "category": "Bilim",
+        "is_available": true,
+        "borrowed_by": null,
+        "borrowed_date": null,
+        "return_date": null
+    },
+    {
+        "title": "Şeker Portakalı",
+        "author": "José Mauro de Vasconcelos",
+        "isbn": "9789750738609",
+        "page_count": 182,
+        "category": "Roman",
+        "is_available": true,
+        "borrowed_by": null,
+        "borrowed_date": null,
+        "return_date": null
+    },
+    {
+        "title": "Python Programming",
+        "author": "Mark Lutz",
+        "isbn": "9781449355739",
+        "page_count": 1648,
+        "category": "Programlama",
+        "is_available": false,
+        "borrowed_by": "M003",
+        "borrowed_date": "2024-12-15",
+        "return_date": "2025-01-15"
+    }
+]
