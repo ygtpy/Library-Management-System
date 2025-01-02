@@ -24,6 +24,7 @@ class Kitap:
             "kategori": self.kategori,
             "musait": self.musait,
             "odunc_alan": self.odunc_alan,
+            "odunc_tarihi": self.odunc_tarihi,
             "teslim_tarihi": self.teslim_tarihi            
         }
     
